@@ -1,0 +1,125 @@
+.logo{
+        background-image: url("../images/jakes-logo.png");
+        height:230px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .nav{
+        display:flex;
+        background-color: black;
+        padding: 20px;
+    }
+
+   
+    .left, .center, .right{
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+.right, .left{
+    width:25%
+}
+.center{
+    width:50%
+
+}
+.center a{
+    color:white;
+    padding: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+button{
+    color:white;
+    font-size: 16ox;
+    padding: 15px;
+    width: 50%;
+}
+
+.left button{
+    background-color: skyblue;
+}
+.right button {
+background-color: yellowgreen;
+} 
+
+.column{
+    display: flex;
+    height:1200px;
+    width: 800px;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.meal1, .meal2, .meal3{
+    height:100%;
+    width:100%;
+    display:flex;
+    align-items: flex-end;
+    margin-bottom: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.meal1{
+    background-image: url("../images/steak.png");
+    margin-top: 20px;
+}
+.meal2{
+    background-image: url("../images/soup.png");
+}
+.meal3{
+    background-image: url("../images/cheesecake.png");
+}
+
+.text{
+    background: rgb(0,0,0,0.7);
+    width: 100%;
+    padding: 20px 40px;
+    color: white;
+
+}
+
+.text p{
+    color:rgba(255,255,255,0.7);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.footer{
+    background-color: black;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fb, .tw, .ig{
+text-decoration: none;
+    padding: 20px;
+}
+
+.fb{
+    color: skyblue;
+}
+
+.tw{
+    color:yellowgreen;
+
+}
+.ig{
+    color: rgba(207, 77, 138, 0.83)
+
+}
+/* Navigation styles */
+
+/* Column styles */
+
+/* Footer Styles */
